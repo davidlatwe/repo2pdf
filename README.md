@@ -15,11 +15,18 @@ And I use `Pygments` to convert code into HTML, so only `Pygments` supported lan
 ## Dependency
 
 #### [Pygments](http://pygments.org/)
+
+For syntax highlighting and convert to HTML
+
 ```    
 $ pip install pygments
 ```
 
 #### [wkhtmltopdf](https://wkhtmltopdf.org/)
+
+For HTML convert to PDF
+
+> This section was copied from [JazzCore/python-pdfkit](https://github.com/JazzCore/python-pdfkit#installation). Sience I forked and a little modified [JazzCore/python-pdfkit](https://github.com/JazzCore/python-pdfkit) than use as submodule for PDF converting.
 
 * Debian/Ubuntu:
     ```
@@ -28,6 +35,14 @@ $ pip install pygments
 **Warning!** Version in debian/ubuntu repos have reduced functionality (because it compiled without the wkhtmltopdf QT patches), such as adding outlines, headers, footers, TOC etc. To use this options you should install static binary from [wkhtmltopdf](http://wkhtmltopdf.org/) site or you can use [this script](https://github.com/JazzCore/python-pdfkit/blob/master/travis/before-script.sh).
 
 * Windows and other options: check wkhtmltopdf [homepage](http://wkhtmltopdf.org/) for binary installers
+
+
+## Get
+
+git clone
+```
+git clone https://github.com/davidpower/repo2pdf.git repo2pdf --recursive
+```
 
 
 ## Usage
