@@ -1,0 +1,3 @@
+[submodule "vendor/python-pdfkit"]
+	path = vendor/python-pdfkit
+	url = https://github.com/davidpower/python-pdfkit.git

@@ -1,0 +1,14 @@
+.idea
+*.pyc
+
+# Build
+.cache
+.eggs
+pdfkit.egg-info
+
+# sublime
+*.sublime-*
+
+# Tests
+.tox
+.python-version
