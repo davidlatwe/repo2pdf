@@ -7,9 +7,9 @@ And sometimes we might want to print the code on paper for reading more freely.
 Here I assembled a way to convert the entire project's content to PDF files.
 This will convert each file to one PDF and put in an identical folder structure with original project.
 
-If the project is git-controlled, those ignored by `.gitignore` will not be processed, otherwise all file would be converted.
+If the project is git-controlled, will use git command to list out tracked files and only process them, otherwise all file would be converted.
 And I use `Pygments` to convert code into HTML, so only `Pygments` supported language will be processed.
-> I am not sure about using `.gitignore` as a filter will bring much help because `Pygments` itself will automatically failed with unsupported file extension. But I made it anyway.
+> I am not sure about using git as a filter will bring much help because `Pygments` itself will automatically failed with unsupported file extension. But I made it anyway.
 
 
 ## Dependency
