@@ -15,10 +15,9 @@ And I use `Pygments` to convert code into HTML, so only `Pygments` supported lan
 ## Dependency
 
 #### [Pygments](http://pygments.org/)
-    
-    ```
-    $ pip install pygments
-    ```
+```    
+$ pip install pygments
+```
 
 #### [wkhtmltopdf](https://wkhtmltopdf.org/)
 
@@ -35,21 +34,21 @@ And I use `Pygments` to convert code into HTML, so only `Pygments` supported lan
 
 For demo, In Bash or CMD, type :
 
-    ```
-    $ repo2pdf --demo
-    ```
+```
+$ repo2pdf --demo
+```
 
 For task :
 
-    ```
-    $ repo2pdf [your_repo_path]
-    ```
+```
+$ repo2pdf [your_repo_path]
+```
 
 For help :
 
-    ```
-    $ repo2pdf --help
-    ```
+```
+$ repo2pdf --help
+```
 
 
 ## Ah
