@@ -35,13 +35,13 @@ $ pip install pygments
 For demo, In Bash or CMD, type :
 
 ```
-$ repo2pdf --demo
+$ repo2pdf demo
 ```
 
 For task :
 
 ```
-$ repo2pdf [your_repo_path]
+$ repo2pdf --tab-width 4 --ignore-git [your_repo_path]
 ```
 
 For help :
