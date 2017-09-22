@@ -32,7 +32,12 @@ $ pip install pygments
 
 ## Usage
 
-For demo, In Bash or CMD, type :
+In Bash or CMD
+```
+$ cd ./repo2pdf
+```
+
+For demo, type :
 
 ```
 $ repo2pdf demo
