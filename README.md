@@ -42,7 +42,7 @@ For HTML convert to PDF
 
 git clone
 ```
-git clone https://github.com/davidpower/repo2pdf.git repo2pdf --recursive
+git clone https://github.com/davidlatwe/repo2pdf.git repo2pdf --recursive
 ```
 
 
