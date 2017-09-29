@@ -1,7 +1,7 @@
 Repo to PDFs
 ===
 
-In open-source project devloping, one often needs to read a lot of code so he/she can follow-up.
+In open-source project devloping, one often needs to read a lot of code so he/she/they could follow-up.
 And sometimes we might want to print the code on paper for reading/noting more freely.
 
 So here I assembled a way to convert the entire project's content to PDF files.
