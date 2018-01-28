@@ -1,6 +1,6 @@
 """Repo2PDF Command-line Interface
 
-- https://github.com/davidpower/repo2pdf
+- https://github.com/davidlatwe/repo2pdf
 Convert whole repository into PDF files for printing.
 Dependency:
 	- Pygments
